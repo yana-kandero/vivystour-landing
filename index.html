@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VivysTour — Twoja nieruchomość, opowiedziana przez AI</title>
+<meta name="description" content="Profesjonalny skan 3D Matterport + wirtualny asystent AI, który oprowadza kupujących i najemców po Twojej nieruchomości 24/7, w kilku językach.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Fraunces:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<header class="nav" id="nav">
+  <div class="container nav__inner">
+    <a href="#top" class="nav__logo">Vivys<span>Tour</span></a>
+    <nav class="nav__links">
+      <a href="#problem">Dlaczego</a>
+      <a href="#how">Jak to działa</a>
+      <a href="#benefits">Korzyści</a>
+      <a href="#demo">Przykład</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <a href="#zgloszenie" class="btn btn--primary btn--sm">Zgłoś nieruchomość</a>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="top">
+  <video class="hero__bg" id="heroVideo" autoplay muted loop playsinline poster="assets/img/05-avatar-rooms.jpg">
+    <source src="assets/video/tour-rooms-voiced.mp4" type="video/mp4">
+  </video>
+  <button type="button" class="sound-btn" data-target="heroVideo" aria-label="Włącz dźwięk">🔇 Włącz dźwięk</button>
+  <div class="hero__overlay"></div>
+  <div class="container hero__inner">
+    <p class="eyebrow">VivysTour — nowa era prezentacji nieruchomości</p>
+    <h1 class="hero__title">Twoja nieruchomość<br>zasługuje na więcej<br>niż zdjęcia</h1>
+    <p class="hero__sub">Profesjonalny skan 3D Matterport i wirtualny asystent AI, który oprowadza kupujących oraz najemców po Twoim mieszkaniu — 24 godziny na dobę, w kilku językach, bez Twojego udziału.</p>
+    <div class="hero__cta">
+      <a href="#zgloszenie" class="btn btn--primary btn--lg">Zgłoś swoją nieruchomość</a>
+      <a href="#demo" class="btn btn--ghost btn--lg">Zobacz żywy przykład ↓</a>
+    </div>
+    <div class="hero__trust">
+      <span>🏙️ Skanowanie Matterport Pro3</span>
+      <span>🤖 Asystent AI 24/7</span>
+      <span>🌍 PL · EN · UA</span>
+    </div>
+  </div>
+  <div class="hero__scroll">przewiń</div>
+</section>
+
+<!-- ============ PROBLEM ============ -->
+<section class="section problem" id="problem">
+  <div class="container">
+    <p class="eyebrow eyebrow--dark">Rzeczywistość rynku nieruchomości</p>
+    <h2 class="h2">Zwykłe ogłoszenie<br>już nie wystarcza</h2>
+    <div class="problem__grid">
+      <div class="problem__card">
+        <div class="problem__num">01</div>
+        <h3>Zdjęcia nie oddają przestrzeni</h3>
+        <p>Zainteresowani rezygnują, zanim jeszcze umówią oglądanie — bo nie potrafią sobie wyobrazić realnego układu mieszkania.</p>
+      </div>
+      <div class="problem__card">
+        <div class="problem__num">02</div>
+        <h3>Dziesiątki tych samych pytań</h3>
+        <p>Ile metrów ma sypialnia? Czy jest balkon? Odpowiadasz na te same pytania w kółko, każdej osobie z osobna.</p>
+      </div>
+      <div class="problem__card">
+        <div class="problem__num">03</div>
+        <h3>Puste oglądania</h3>
+        <p>Umawiasz się, czekasz, oprowadzasz — a połowa osób i tak nie jest zdecydowana. Twój czas znika.</p>
+      </div>
+      <div class="problem__card">
+        <div class="problem__num">04</div>
+        <h3>Bariera językowa</h3>
+        <p>Coraz więcej zainteresowanych to obcokrajowcy szukający mieszkania w Polsce — a Ty nie mówisz w ich języku.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SOLUTION ============ -->
+<section class="section solution">
+  <div class="container solution__inner">
+    <div class="solution__text">
+      <p class="eyebrow">Rozwiązanie</p>
+      <h2 class="h2">Poznaj VivysTour</h2>
+      <p class="lead">Łączymy dokładny skan 3D Twojej nieruchomości z wirtualnym asystentem AI, który <strong>osobiście oprowadza</strong> każdego zainteresowanego po każdym pomieszczeniu — opowiada o zaletach, odpowiada na typowe pytania i robi to w języku, który rozumie odwiedzający.</p>
+      <p>Wystarczy jeden link. Wklejasz go w ogłoszeniu na <strong>OLX, Otodom, Gratka.pl czy Facebook Marketplace</strong>, wysyłasz w wiadomości, publikujesz w mediach społecznościowych — a Twoja nieruchomość sama się prezentuje, także wtedy, gdy śpisz.</p>
+      <ul class="solution__perks">
+        <li>✓ Działa z każdym portalem ogłoszeniowym — nie zmieniasz gdzie publikujesz, tylko dodajesz link</li>
+        <li>✓ Ogłoszenie z wirtualnym spacerem 3D wyróżnia się na tle dziesiątek zwykłych zdjęć</li>
+        <li>✓ Więcej kliknięć i zapisań ogłoszenia = wyższa pozycja w algorytmach portali</li>
+      </ul>
+    </div>
+    <div class="solution__media">
+      <img src="assets/img/04-avatar-consult.jpg" alt="Wirtualny asystent AI VivysTour" loading="lazy">
+    </div>
+  </div>
+</section>
+
+<!-- ============ HOW IT WORKS ============ -->
+<section class="section how" id="how">
+  <div class="container">
+    <p class="eyebrow eyebrow--dark">Proces</p>
+    <h2 class="h2">Jak to działa —<br>4 proste kroki</h2>
+
+    <div class="how__showcase how__showcase--relative">
+      <video id="scanVideo" autoplay muted loop playsinline poster="assets/img/03-scanning.jpg">
+        <source src="assets/video/scanning-process-voiced.mp4" type="video/mp4">
+      </video>
+      <button type="button" class="sound-btn" data-target="scanVideo" aria-label="Włącz dźwięk">🔇 Włącz dźwięk</button>
+    </div>
+
+    <div class="steps">
+      <div class="step">
+        <div class="step__num">1</div>
+        <h3>Umawiamy termin</h3>
+        <p>Kontaktujesz się z nami, umawiamy jedną wizytę naszego technika w Twojej nieruchomości — bez zbędnych formalności.</p>
+      </div>
+      <div class="step">
+        <div class="step__num">2</div>
+        <h3>Skanujemy mieszkanie</h3>
+        <p>Profesjonalny skaner Matterport Pro3 tworzy dokładny model 3D każdego pomieszczenia — zajmuje to zwykle godzinę.</p>
+      </div>
+      <div class="step">
+        <div class="step__num">3</div>
+        <h3>Dodajemy asystenta AI</h3>
+        <p>Konfigurujemy wirtualnego przewodnika, który opowiada o zaletach każdego pokoju — po polsku, angielsku i ukraińsku.</p>
+      </div>
+      <div class="step">
+        <div class="step__num">4</div>
+        <h3>Otrzymujesz link</h3>
+        <p>Gotowe. Wklejasz jeden link do ogłoszenia na OLX, Otodom czy Gratka.pl i wszędzie indziej, gdzie promujesz nieruchomość — i zbierasz konkretne zgłoszenia.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BENEFITS ============ -->
+<section class="section benefits" id="benefits">
+  <div class="container">
+    <p class="eyebrow">Korzyści</p>
+    <h2 class="h2 h2--light">Co realnie<br>zyskujesz</h2>
+
+    <div class="benefits__grid">
+      <div class="benefit">
+        <div class="benefit__icon">🕐</div>
+        <h3>Dostępność 24/7</h3>
+        <p>Prezentacja pracuje dla Ciebie non-stop — także w nocy, w weekend, podczas Twojego urlopu.</p>
+      </div>
+      <div class="benefit">
+        <div class="benefit__icon">🌍</div>
+        <h3>Wielojęzyczność</h3>
+        <p>Docierasz też do obcokrajowców — asystent AI mówi po polsku, angielsku i ukraińsku.</p>
+      </div>
+      <div class="benefit">
+        <div class="benefit__icon">🎯</div>
+        <h3>Mniej pustych oglądań</h3>
+        <p>Przychodzą do Ciebie osoby, które już widziały wszystko, co chciały zobaczyć — i są naprawdę zdecydowane.</p>
+      </div>
+      <div class="benefit">
+        <div class="benefit__icon">📈</div>
+        <h3>Więcej zapytań</h3>
+        <p>Oferty z wirtualnym spacerem 3D przyciągają zdecydowanie więcej uwagi niż zwykłe zdjęcia.</p>
+      </div>
+      <div class="benefit">
+        <div class="benefit__icon">✨</div>
+        <h3>Nowoczesny wizerunek</h3>
+        <p>Wyróżniasz się na tle innych ogłoszeń — pokazujesz, że traktujesz swoją nieruchomość poważnie.</p>
+      </div>
+      <div class="benefit">
+        <div class="benefit__icon">🙌</div>
+        <h3>Zero wysiłku</h3>
+        <p>Jedna wizyta technika, zero powtarzania tych samych informacji dziesiątki razy.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container languages__wrap">
+    <div class="languages__text">
+      <h3>Twój asystent mówi<br>w trzech językach</h3>
+      <p>Polski, angielski, ukraiński — zainteresowany sam wybiera język zwiedzania. Zero barier, więcej zapytań od obcokrajowców.</p>
+    </div>
+    <div class="languages__video">
+      <video id="langVideo" autoplay muted loop playsinline poster="assets/img/07-avatar-languages.jpg">
+        <source src="assets/video/languages-voiced.mp4" type="video/mp4">
+      </video>
+      <button type="button" class="sound-btn" data-target="langVideo" aria-label="Włącz dźwięk">🔇 Włącz dźwięk</button>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOR WHOM ============ -->
+<section class="section audience">
+  <div class="container">
+    <p class="eyebrow eyebrow--dark">Dla kogo</p>
+    <h2 class="h2">VivysTour sprawdzi się,<br>jeśli jesteś:</h2>
+    <div class="audience__grid">
+      <div class="audience__card">
+        <h3>Właścicielem mieszkania</h3>
+        <p>Sprzedajesz lub wynajmujesz nieruchomość samodzielnie, bez pośrednika, i chcesz to zrobić szybciej i sprawniej.</p>
+      </div>
+      <div class="audience__card">
+        <h3>Agentem nieruchomości</h3>
+        <p>Chcesz wyróżnić swoją ofertę na tle konkurencji i ograniczyć liczbę niepotrzebnych oglądań z niezdecydowanymi klientami.</p>
+      </div>
+      <div class="audience__card">
+        <h3>Deweloperem</h3>
+        <p>Prezentujesz inwestycję jeszcze przed jej ukończeniem lub potrzebujesz spójnej, powtarzalnej prezentacji wielu lokali.</p>
+      </div>
+      <div class="audience__card">
+        <h3>Wynajmującym obcokrajowcom</h3>
+        <p>Twoi najemcy często nie mówią po polsku — asystent AI oprowadzi ich w zrozumiałym dla nich języku.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ DEMO ============ -->
+<section class="section demo" id="demo">
+  <div class="container">
+    <p class="eyebrow">Zobacz sam</p>
+    <h2 class="h2 h2--light">To nie jest makieta.<br>To działa naprawdę.</h2>
+    <p class="lead lead--center">Otwórz żywy, w pełni funkcjonalny przykład tour VivysTour — dokładnie taki, jaki otrzyma Twoja nieruchomość.</p>
+    <div class="demo__frame">
+      <img src="assets/img/06-avatar-model.jpg" alt="Podgląd wirtualnego tour VivysTour" loading="lazy">
+      <div class="demo__frame-overlay">
+        <a href="https://app.vivystour.pl/?slug=koval" target="_blank" rel="noopener" class="btn btn--primary btn--lg">▶ Otwórz żywy przykład tour</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ EARLY ADOPTER ============ -->
+<section class="section early">
+  <div class="container early__inner">
+    <div class="early__text">
+      <p class="eyebrow eyebrow--dark">Dołącz na starcie</p>
+      <h2 class="h2">Bądź jednym<br>z pierwszych</h2>
+      <p class="lead">VivysTour dopiero wchodzi na rynek — a to oznacza dla Ciebie realną przewagę. Pierwsi klienci otrzymują priorytetowy termin skanowania, indywidualne wsparcie przy konfiguracji tour oraz warunki ustalane bezpośrednio, bez sztywnego cennika.</p>
+      <ul class="early__list">
+        <li>✓ Priorytetowy termin skanowania</li>
+        <li>✓ Osobiste wsparcie przy uruchomieniu</li>
+        <li>✓ Warunki dopasowane do Twojej nieruchomości</li>
+      </ul>
+    </div>
+    <div class="early__media">
+      <img src="assets/img/10-keys-handover.jpg" alt="Przekazanie kluczy — sfinalizowana transakcja" loading="lazy">
+    </div>
+  </div>
+</section>
+
+<!-- ============ FORM / FINAL CTA ============ -->
+<section class="section zgloszenie" id="zgloszenie">
+  <div class="container zgloszenie__inner">
+    <div class="zgloszenie__text">
+      <p class="eyebrow">Zacznijmy</p>
+      <h2 class="h2 h2--light">Zgłoś swoją<br>nieruchomość</h2>
+      <p class="lead">Zostaw kontakt — odezwiemy się, aby umówić termin skanowania i omówić szczegóły. Bez zobowiązań.</p>
+    </div>
+
+    <form id="leadForm" class="form">
+      <input type="hidden" name="landing_variant" value="v1">
+      <div class="form__row">
+        <label>
+          Imię i nazwisko *
+          <input type="text" name="name" required autocomplete="name">
+        </label>
+        <label>
+          Telefon *
+          <input type="tel" name="phone" required autocomplete="tel" placeholder="+48 000 000 000">
+        </label>
+      </div>
+      <div class="form__row">
+        <label>
+          E-mail
+          <input type="email" name="email" autocomplete="email">
+        </label>
+        <label>
+          Miasto / adres nieruchomości
+          <input type="text" name="address" placeholder="np. Warszawa, ul. Przykładowa 1">
+        </label>
+      </div>
+      <label class="form__full">
+        Wiadomość (opcjonalnie)
+        <textarea name="message" rows="3" placeholder="Typ nieruchomości, metraż, dodatkowe informacje..."></textarea>
+      </label>
+      <label class="form__checkbox">
+        <input type="checkbox" name="consent" required>
+        <span>Wyrażam zgodę na kontakt w sprawie mojego zgłoszenia oraz otrzymywanie informacji marketingowych zgodnie z <a href="#">polityką prywatności</a>. *</span>
+      </label>
+      <button type="submit" class="btn btn--primary btn--lg form__submit">Wyślij zgłoszenie</button>
+      <p class="form__status" id="formStatus"></p>
+    </form>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="section faq" id="faq">
+  <div class="container">
+    <p class="eyebrow eyebrow--dark">Pytania</p>
+    <h2 class="h2">Najczęstsze pytania</h2>
+    <div class="faq__list">
+      <details class="faq__item">
+        <summary>Ile trwa skanowanie mieszkania?</summary>
+        <p>W zależności od metrażu — zazwyczaj od 30 minut do godziny. Nie musisz nic przygotowywać poza standardowym porządkiem.</p>
+      </details>
+      <details class="faq__item">
+        <summary>Czy muszę coś instalować lub się czegoś uczyć?</summary>
+        <p>Nie. Otrzymujesz gotowy link do tour, który możesz udostępniać wszędzie. Cała technologia działa w przeglądarce, bez instalacji.</p>
+      </details>
+      <details class="faq__item">
+        <summary>W jakich językach mówi asystent AI?</summary>
+        <p>Obecnie polski, angielski i ukraiński — z możliwością przełączania języka bezpośrednio podczas zwiedzania.</p>
+      </details>
+      <details class="faq__item">
+        <summary>Ile to kosztuje?</summary>
+        <p>Warunki ustalamy indywidualnie w zależności od nieruchomości i pakietu — napisz do nas, a dobierzemy najlepszą opcję.</p>
+      </details>
+      <details class="faq__item">
+        <summary>Czy to działa też przy wynajmie, nie tylko sprzedaży?</summary>
+        <p>Tak — VivysTour sprawdza się zarówno przy sprzedaży, jak i wynajmie nieruchomości.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="container footer__inner">
+    <div>
+      <a href="#top" class="nav__logo nav__logo--footer">Vivys<span>Tour</span></a>
+      <p class="footer__tagline">Nieruchomość, która sama się prezentuje.</p>
+    </div>
+    <div class="footer__contact">
+      <p>VIVYS Group</p>
+      <p><a href="mailto:info@vivysgroup.pl">info@vivysgroup.pl</a></p>
+    </div>
+  </div>
+  <div class="container footer__bottom">
+    <p>© 2026 VivysTour · VIVYS Group. Wszelkie prawa zastrzeżone.</p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
