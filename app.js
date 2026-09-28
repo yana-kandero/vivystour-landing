@@ -140,3 +140,17 @@ window.addEventListener("scroll", () => {
     nav.style.background = "rgba(11,14,23,.55)";
   }
 });
+
+// Mobile menu (burger)
+const burger = document.querySelector(".nav__burger");
+const mobileNav = document.getElementById("navMobile");
+function setMenu(open) {
+  burger.setAttribute("aria-expanded", String(open));
+  mobileNav.hidden = !open;
+}
+burger.addEventListener("click", () => setMenu(burger.getAttribute("aria-expanded") !== "true"));
+mobileNav.addEventListener("click", (e) => { if (e.target.closest("a")) setMenu(false); });
+document.addEventListener("keydown", (e) => {
+  if (e.key === "Escape" && burger.getAttribute("aria-expanded") === "true") { setMenu(false); burger.focus(); }
+});
+window.matchMedia("(min-width: 821px)").addEventListener("change", (e) => { if (e.matches) setMenu(false); });
