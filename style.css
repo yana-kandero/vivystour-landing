@@ -283,3 +283,4 @@ a{color:inherit;text-decoration:none}
 .footer__contact p{margin-bottom:6px;font-size:14px}
 .footer__contact a:hover{color:#fff}
 .footer__bottom{padding-top:24px;font-size:13px;color:rgba(255,255,255,.4)}
+html{scroll-padding-top:84px}
