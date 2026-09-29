@@ -6,8 +6,8 @@
 // insert do tabeli "leads" musi być dozwolony w RLS (public insert leads) —
 // to już jest skonfigurowane w Supabase dla tego projektu.
 // ============================================================
-const SUPABASE_URL = "https://pmhhtbuhrflwincuulco.supabase.co";
-const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBtaGh0YnVocmZsd2luY3V1bGNvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODk2MjY0ODUsImV4cCI6MjEwNTIwMjQ4NX0.VWHDQZ9ucshVxe6lrPaqIvDbSo1QJWYlnVVLDhkK_nM";
+const SUPABASE_URL = "https://opbfsvjddxzepboppidq.supabase.co";
+const SUPABASE_ANON_KEY = "sb_publishable_7vMQw2oUpf2uE3OgeBYiCw_WbQwanNT";
 
 // ------------------------------------------------------------
 // WAŻNE: zanim formularz zacznie zapisywać zgłoszenia, upewnij się,
@@ -71,7 +71,7 @@ form.addEventListener("submit", async (e) => {
   }
 
   try {
-    const { error } = await supabaseClient.from("leads").insert([
+    const { error } = await supabaseClient.from("landing_leads").insert([
       {
         property_id: null,
         lead_type: "landing_signup",
